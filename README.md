@@ -20,8 +20,12 @@ Just like Samsung's Ambient/Art Mode which turns your TV into a digital art disp
 2. **Download the Script**  
    Get the latest release of `AmbientWindowsDesktop.ahk` from the [Releases section](https://github.com/daydreamer451/AmbientWindowsDesktop/releases).
 
-3. **Run the Script**  
-   Double-click the downloaded `.ahk` file to start the script.  
+3. **Unzip the Release**  
+   The downloaded release will be a `.zip` file, extract it using your preferred tool.  
+   - [7-Zip](https://www.7-zip.org/) is a free and recommended option.
+
+4. **Run the Script**  
+   Double-click the extracted `.ahk` file to start the script.  
    - To stop the script, simply close it from the task manager or use the built-in exit shortcut.
 
 ## Usage
@@ -33,6 +37,17 @@ Just like Samsung's Ambient/Art Mode which turns your TV into a digital art disp
 - **Restore Everything:**  
   Press `Win + F11` again, or exit the script, to bring everything back.
 
+## Start AmbientWindowsDesktop on Startup
+
+To have AmbientWindowsDesktop run automatically every time you log in:
+
+1. Right-click the extracted `AmbientWindowsDesktop.ahk` file and select **Create shortcut**.
+2. Press `Win + R`, type `shell:startup`, and press Enter to open your Startup folder.
+3. Move the shortcut you just created into the Startup folder.
+
+This way, the script will launch automatically at startup.  
+*Tip: If you update the script, simply replace the `.ahk` file—the shortcut will continue to work with the new version.*
+
 ## Notes
 
 - The script does **not** show a system tray icon, keeping your workspace clean.
@@ -40,4 +55,4 @@ Just like Samsung's Ambient/Art Mode which turns your TV into a digital art disp
 
 ---
 
-Ideal to listen to your music while admiring your wallpaper collection. Enjoy ! 
+Ideal to listen to your music while admiring your wallpaper collection. Enjoy !
